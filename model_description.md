@@ -5,28 +5,33 @@ _You may use https://tex-image-link-generator.herokuapp.com/ to render math form
 
 ### PDEs
 
-_E.g._ One mass balance per component water and CO2.
+One mass balance per component water and CO2.
 
 ### Constitutive relations
 
 #### Fluid-matrix interaction
 
-* **Capillary pressure:** _E.g._ Brooks-Corey
+* **Capillary pressure:** Brooks-Corey
   ![p_c(S_{l}) = p_\text{entry}S_{le}^{-1/\lambda}](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+p_c%28S_%7Bl%7D%29+%3D+p_%5Ctext%7Bentry%7DS_%7Ble%7D%5E%7B-1%2F%5Clambda%7D%0A)
 
-* **Relative permeability:** ...
+* **Relative permeability:** Brooks-Corey
 
 #### Phase composition: Applied equations of state
 
-* **CO2 in liquid phase:** ...
+* **CO2 in liquid phase:** 
 
-* **Water in gas phase:** ...
+* **Water in gas phase:** 
+
+
 
 #### Density
 
-* **Liquid phase:** ...
+* **Liquid phase:** 
 
-* **Gas phase:** ...
+* **Gas phase:** 
+
+CO2 in gas or liquid phase. Water in liquid phase only.
+Peng-Robinson equation of state with a volumetric shift parameter to calculate fluid densities.
 
 ### Spatial parameters
 
@@ -38,11 +43,11 @@ _Obviously, the number and type of parameters for your model might differ from t
 
 ### Coupling of flow and transport, temporal and spatial discretization
 
-_E.g._ Fully coupled, fully implicit, cell-centered FV with TPFA.
+Fully coupled, fully implicit, enhanced velocity mixed finite element method.
 
 ### Linearization and Solvers
 
-_E.g._ Newton with line search, AMG-preconditioned BiCGSTAB for the linear systems.
+GMRES with AMG preconditioner.
 
 ### Primary Variables
 
