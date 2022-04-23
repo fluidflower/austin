@@ -5,4 +5,4 @@ id,permeability,porosity,pc_entry,pc_lambda,krw_end,krn_end,swr,snr,pc_lo_swe,pc
 4,2.005E-09,0.45,0,2,0.72,0.1,0.21,0.1,N/A,N/A,N/A,N/A,E
 5,1.11E-09,0.44,98.1,2,0.72,0.2,0.17,0.1,N/A,N/A,N/A,N/A,D
 6,4.73E-10,0.43,294.3,2,0.72,0.2,0.15,0.1,N/A,N/A,N/A,N/A,C
-7,4.44E-11,0.44,1471.5,2,0.72,0.2,0.15,0.1,N/A,N/A,N/A,N/A,ESF
+7,4.4E-11,0.44,1471.5,2,0.72,0.2,0.15,0.1,N/A,N/A,N/A,N/A,ESF
