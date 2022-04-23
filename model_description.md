@@ -18,9 +18,9 @@ One mass balance per component water and CO2.
 
 #### Phase composition: Applied equations of state
 
-* **CO2 in liquid phase:** 
+* **CO2 in liquid phase:** Peng-Robinson equation of state
 
-* **Water in gas phase:** 
+* **Water in gas phase:** Not allowed.
 
 
 
@@ -30,20 +30,18 @@ One mass balance per component water and CO2.
 
 * **Gas phase:** 
 
-CO2 in gas or liquid phase. Water in liquid phase only.
-Peng-Robinson equation of state with a volumetric shift parameter to calculate fluid densities.
 
 #### Solubility limit
 
-1.48 kg/m<sup>3</sup>._
+1.48 kg/m<sup>3</sup>.
 
 ### Temperature
 
-_Please provide the assumed temperature inside the computational domain in °C._
+20°C.
 
 ### Domain volume
 
-_Please provide the assumed total volume of the computational domain in m<sup>3</sup>._
+0.105 m<sup>3</sup>.
 
 ### Spatial parameters
 
@@ -69,7 +67,7 @@ _E.g._ Dependent on local phase composition:
 
 ### Computational Grid
 
-_Please provide the number and shape of grid elements._
+140x75 Rectangular grids.
 
 ### Performance
 
