@@ -35,7 +35,7 @@ Peng-Robinson equation of state with a volumetric shift parameter to calculate f
 
 #### Solubility limit
 
-_Please provide the assumed solubility limit of CO2 in liquid phase at the tank bottom in kg/m<sup>3</sup>._
+1.48 kg/m<sup>3</sup>._
 
 ### Temperature
 
